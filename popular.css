@@ -25,13 +25,16 @@ span {
 }
 
 .tag {
-    background-color: #DDA15E;
+    background-color: #BC6C25;
     color: #FEFAE0;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .post a {
-    color: red;
+    color: #FEFAE0;
+    background-color: #606C38;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 footer a {
@@ -45,4 +48,68 @@ h2 + button {
 
 footer > a {
     color:blue;
+}
+
+input {
+    color: aqua;
+}
+
+input[type="password"]{
+    color: #DDA15E;
+}
+
+/*section[class="post"]{
+    background-color: yellow;
+}*/
+
+section.post {
+    font-weight: bolder;
+}
+
+a[href*="google"]{
+    background-color: palevioletred;
+}
+
+button:hover{
+    background-color: salmon;
+    color: black;
+}
+
+.post a:hover{
+    text-decoration: underline;
+}
+
+.post button:active{
+    background-color: black;
+    color: white;
+}
+
+.post:nth-of-type(2n) {
+    background-color: #DDA15E ;
+}
+
+h2::first-letter{
+    color: #606C38;
+    font-size: 40px;
+}
+
+p::first-line{
+    color: teal;
+}
+
+p::selection {
+    background-color: #BC6C25;
+}
+
+.post button:hover{
+    background-color: teal;
+}
+
+button:hover {
+    background-color: #BC6C25;
+    font-size: 25px;
+}
+
+button {
+    background-color: #606C38 !important;
 }

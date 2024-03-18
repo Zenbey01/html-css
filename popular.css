@@ -1,9 +1,48 @@
-* {
+/* {
     background-color: bisque;
+}*/
+body {
+    background-color: #FEFAE0;
 }
-button{
+
+button {
     font-size: 30px;
+    background-color:#606C38 ;
+    color: #FEFAE0 ;
+    
 }
-h1,h2{
-    color: darkblue;
+h1,h2 {
+    color:  #283618;
+}
+
+#signup {
+    background-color: #DDA15E ;
+    color: #FEFAE0 ;
+}
+
+span {
+    color: #606C38;
+}
+
+.tag {
+    background-color: #DDA15E;
+    color: #FEFAE0;
+    font-size: 16px;
+}
+
+.post a {
+    color: red;
+}
+
+footer a {
+    color: #283618;
+}
+
+h2 + button {
+    background-color: violet;
+    font-size: 20px;
+}
+
+footer > a {
+    color:blue;
 }

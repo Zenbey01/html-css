@@ -1,0 +1,17 @@
+/* h1 {
+    background-color: steelblue;
+    border: 3.5px solid black;
+    display: inline;
+}
+
+span {
+    background-color: tomato;
+    border: 3.5px solid darkolivegreen;
+    display: block;
+} */
+
+span {
+    background-color: rosybrown;
+    border: 1px solid black;
+    width: 500px;
+}

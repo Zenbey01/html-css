@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ข้อมูลพื้นฐาน -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Zento-Zenbey01"> <!--แสดงความเป็นเจ้าของ-->
+    <meta name="keywords" content="Review HTML"> <!--แสดง keywords ที่จะแสดงขึ้นเมื่อค้นหา-->
+    <!-- ชื่อแท็บ -->
+    <title>Review my code</title>
+    <!-- ใส่สีกันงง -->
+    <style>
+        /* * {background-color: #202124;
+        color: #f7f3e3;} */
+        a {
+            color: brown;
+        }
+        .heading {
+            text-indent: 50px; /*ทำย่อหน้า*/
+        } 
+        .InEight {
+            border: 1px solid rgb(255, 0, 0);
+        }
+        span {
+            border: 1px solid rgb(9, 255, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- เนื้อหา -->
+    <h1>Review my code</h1>
+    <h3><p>One : Use a link </p></h3>
+    <div class="heading">
+        <p>Use a Internal link : <a href="ReviewTheCss.html" target="_blank">Click to New file</a></p> <!--Internal เป็นการเชื่อมลิ้งเพจในโฟลเดอร์,ระหว่างโฟลเดอร์,ภายในเครื่องเดียวกัน-->
+        <p>Use a External link : <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUOcmljayByb2xsIHNvbmc%3D" target="_blank">Click to Youtube</a></p> <!--External เป็นการเชื่อมโยงลิ้งภายนอก-->
+    </div>
+    <hr>
+    <h3>Two : Use a Heading</h3>
+    <div class="heading">
+        <h1>This is H1</h1>
+        <h2>This is H2</h2>
+        <h3>This is H3</h3>
+        <h4>This is H4</h4>
+        <h5>This is H5</h5>
+        <h6>This is H6</h6>
+    </div>
+    <hr>
+    <h3>Three : Use a Paragraphs (strong, small, mark, del, b, u, i, sup, sub, int)</h3>
+    <div class="heading">
+        <p>Ex1. Paragraphs : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quaerat eaque temporibus ea vero laboriosam velit, cum consequuntur tenetur labore praesentium necessitatibus iusto earum rerum eius. Eligendi rerum inventore quas!</p>
+        <p>Ex2. Use strong, small, mark, del, b, u, i : <strong>Lorem, ipsum</strong> dolor. <small><mark>Lorem,</mark> ipsum dolor sit amet <del>consectetur adipisicing</del> elit.</small> Maiores <u>perferendis dolorum</u> cupiditate eligendi, <b>accusamus</b> illo quia neque quas ipsum <i>asperiores!</i></p>
+        <p>Ex3. Use sup : E=mc<sup>2</sup></p>
+        <p>Ex4. Use sub : H<sub>2</sub>O</p>
+        <p>Ex5. Use ins : <ins>Lorem</ins> ipsum dolor sit amet.</p>
+    </div>
+    <hr>
+    <h3>Four : Use a br and hr</h3>
+    <div class="heading">
+        <p>Ex.1 Use a br : Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Delectus nisi corporis quo laboriosam quidem quibusdam totam natus voluptatum accusantium. Nobis aliquid impedit, voluptatem aliquam reiciendis dolorem odit magni necessitatibus repellendus.</p>
+        <p>Ex.2 Use a hr : Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, recusandae.<hr></p>
+    </div>
+    <h3>Five : Add a Photo/Img/Picture</h3>
+    <div class="heading">
+        <p align="center">
+        <img src="img/bocchi.jpg" alt="Bocchi have a headache" width="200px" height="200px">
+        <a href="https://www.pinterest.com/pin/492649951534611/">
+            <img src="https://i.pinimg.com/564x/6a/a2/40/6aa24072880756e4577048138feb2dff.jpg" alt="Ryo drink fruit juice" width="200px" height="200px"></a>
+        <br> <p align="center">Left : Bocchi have a headache / Right : Ryo drink fruit juice</p>
+        </p>
+    </div>
+    <hr>
+    <h3>Six : Use a Oder List (ol), Unorder List (ul) and List (li)</h3> <!--Oder List คือรายการแบบตัวเลข /Unorder List คือรายการแบบใช้สัญลักษณ์-->
+    <div class="heading">
+            <p>Ex1. Use OL : List like animal</p>
+                <ol type="1">
+                    <li>Cat</li>
+                    <ul type="square">
+                        <li>Persian</li>
+                        <li>American Shothair</li>
+                        <li>Scottish Fold</li>
+                    </ul>
+                    <li>Dog</li>
+                    <li>Rabbit</li>
+                </ol>
+            <p>Ex2. Use UL : To do list </p>
+                <ul >
+                    <li>Eat fried egg</li>
+                    <ol type="a">
+                        <li>with family</li>
+                        <li>with friend</li>
+                    </ol>
+                    <li>Play football with friend</li>
+                    <li>Feed the cat and the dog</li>
+                </ul>
+    </div>
+    <hr>
+    <h3>Seven : Use a Table</h3>
+    <div>
+        <table border="1" cellpadding="5">
+            <thead bgcolor="pink">
+                <th>Number</th>
+                <th>Details</th>
+                <th>Revenue</th>
+                <th>Expenses</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">1.</td>
+                    <td>Buy bread</td>
+                    <td align="center">-</td>
+                    <td align="center">50</td>
+                </tr>
+                <tr>
+                    <td align="center">2.</td>
+                    <td>Mom gives pocket money</td>
+                    <td align="center">100</td>
+                    <td align="center">-</td>
+                </tr>
+                <tr>
+                    <td align="center">3.</td>
+                    <td>Buy 1 game form the steam</td>
+                    <td align="center">-</td>
+                    <td align="center">299</td>
+                </tr>
+                <tr>
+                    <td align="center">4.</td>
+                    <td>Buy skins Valorant</td>
+                    <td align="center">-</td>
+                    <td align="center">499</td>
+                </tr>
+                <tr>
+                    <td align="center">5.</td>
+                    <td>Give money to brother</td>
+                    <td align="center">-</td>
+                    <td align="center">10</td>
+                </tr>
+                <tr bgcolor="#f7f3e3">
+                    <td colspan="2" align="center"> <strong>Total</strong></td>
+                    <td align="center">100</td>
+                    <td align="center">858</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr>
+    <h3>Eight : Use span,div</h3>
+    <div class="heading">
+        <p>Ex1. Use span : </p>
+        <span style="color: cadetblue;">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, nam.
+        </span>
+        <span style="color: cadetblue;">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, nam.
+        </span>
+        <p>Ex2. Use div :</p>
+        <div style="color: rgb(83, 33, 202);" class="InEight">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, nam.
+        </div>
+        <div style="color: rgb(83, 33, 202);" class="InEight">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, nam.
+        </div>
+    </div>
+    <hr>
+    <h3>Nine : Use HTML form</h3>
+    <h2>Register</h2>
+    <form>
+        <div class="InNineFnameLname">
+            <label for="firstname">First Name</label>
+            <input type="text" name="fname" id="" placeholder="Input your First name" required>
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lname" id="" placeholder="Input your Last name" required>
+        </div>
+        <div class="InNineSex">
+            <label for="sex" >Gender</label>
+            <input type="radio" name="sex" id=""> Male
+            <input type="radio" name="sex" id=""> Female
+            <input type="radio" name="sex" id=""> Alternative Gender
+        </div>
+        <div class="InNineEmailPassword">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="" placeholder="Input your E-mail" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="" placeholder="Input your Password" required>  
+        </div>
+        <div class="InNineAddress">
+            <label for="address">Address</label>
+            <textarea name="address" id="" cols="20" rows="2" placeholder="Input your Address" readonly>
+                UwU
+            </textarea>
+        </div>
+        <div class="InNineAge">
+            <label for="number">Age</label>
+            <input type="number" name="age" id="" min="0" placeholder="Input your Age" required>
+        </div>
+        <div class="InNineBrithday">
+            <label for="birthday">Birthday</label>
+            <input type="date" name="birthday" id="" placeholder="Input your Birthday" required>
+        </div>
+        <div class="InNineTel">
+            <label for="tel">Phone number</label>
+            <input type="tel" name="tel" id="" placeholder="Input your Phone number" required>
+        </div>
+        <div class="InNineEdu">
+            <label for="edu">Education</label>
+            <select name="edu" id="">
+                <option value="middleSchool">Middle School</option>
+                <option value="highSchool" selected>High School</option>
+                <option value="degree">Bachelor's Degree</option>
+            </select>
+        </div>
+        <div class="InNineFav">
+            <label for="Fav">What do you eat most often in a week?</label>
+            <input type="checkbox" name="fav"> Omelet
+            <input type="checkbox" name="fav"> Feied egg
+            <input type="checkbox" name="fav"> Boiled egg
+            <input type="checkbox" name="fav"> Noodles
+        </div>
+        <div class="InNineFile">
+            <label for="file">Sent file</label>
+            <input type="file" name="tel" id="" placeholder="Input your File">
+        </div>
+        <div class="InNineUrl">
+            <label for="url">Your website</label>
+            <input type="url" name="tel" id="" placeholder="Input your Website">
+        </div>
+        <div class="InNineSubmit">
+            <button type="submit">Sent</button>
+            <input type="reset" name="reset" id="" value="Reset">
+        </div>
+    </form>
+    <hr>
+    <h3>Ten : Use HTML form</h3>
+</body>
+</html>

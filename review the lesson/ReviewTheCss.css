@@ -1,3 +1,25 @@
+/*Style sheet แบบ external*/
 * {
     background-color: darkslategrey;
+}
+
+p {
+    color: azure;
+    font-size: medium;
+    border: 1px solid blueviolet;
+}
+
+.c2 {
+    color: burlywood;
+}
+
+#p1,.c1 {
+    color: yellow;
+    border: 1px solid gray;
+}
+
+p.c3 {
+    color: aquamarine;
+    font-weight: bold;
+    font-style: italic;
 }
